@@ -1,0 +1,947 @@
+/* TELA DE PACOTES DE DIAMANTES */
+
+/* esse e o fundo da tela de pacotes */
+body {
+    background: url(img/freefire1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* esse e para centraliza a imagem do fundo em todas as telas */
+html {
+    height: 100vh; 
+}
+
+/* esse e menu que eu configurei */
+.menu {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    width: 80px;
+    height: 72px;
+    margin:auto;
+    margin-top: 0vh;
+    padding-right: 320px;
+
+   
+}
+
+/* esse fundo da barra de pesquisa que eu configurei */
+.pesquisa {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 220px;
+    height: 65px;
+    margin:auto;
+    margin-top: -70px;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    
+}
+
+/* esse e o icone que eu configure, que fica no canto da barra de pesquisa */
+.icone {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding-left: 160px;
+}
+
+/* esse e o fundo do tema da tela de pacotes, que eu configurei */
+.tema {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 270px;
+    height: 65px;
+    margin:auto;
+    margin-top: 70px;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+}
+
+/* esse e o texto do tema da tela de pacotes que eu configurei */
+.texto {
+
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 43px;
+    line-height: 50px;
+
+color: #000000;
+}
+
+/* esse e o pacote1 que ta com imagem, e tanto de diamates que vem, que eu comfigurei */
+.pagote1 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    width: 130px;
+    height: 130px;
+    padding-top: 30px;
+    padding-right: 230px;
+    margin: auto;
+    
+}
+
+/* esse e botão para entrar no pacote1, que eu configurei */
+.compra1 {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    
+    margin: auto;
+    margin-top: 20px;  
+    padding-right: 215px ;
+    color:  rgb(0, 255, 132);;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+/* esse e o pacote2 que ta com imagem, e tanto de diamates que vem, que eu comfigurei */
+.pagote2 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    margin-top: -130px;
+    padding-left: 200px;
+}
+
+/* esse e botão para entrar no pacote2, que eu configurei */
+.compra2 {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: -26px; 
+    padding-left: 215px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 23px;
+    text-decoration:none;
+} 
+
+/* esse e o pacote3 que ta com imagem, e tanto de diamates que vem, que eu comfigurei */
+.pagote3 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    margin-top: 50px;
+    padding-right: 230px;
+}
+
+/* esse e botão para entrar no pacote3, que eu configurei */
+.compra3 {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    
+    margin: auto;
+    margin-top: 20px;  
+    padding-right: 215px ;
+    color:  rgb(0, 255, 132);;
+    font-size: 23px;
+    text-decoration:none;
+}
+
+/* esse e o pacote4 que ta com imagem, e tanto de diamates que vem, que eu comfigurei */
+.pagote4 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    margin-top: -130px;
+    padding-left: 200px;
+}
+
+/* esse e botão para entrar no pacote4, que eu configurei */
+.compra4 {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: -26px; 
+    padding-left: 215px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 23px;
+    text-decoration:none;
+}
+
+/* esse e o pacote5 que ta com imagem, e tanto de diamates que vem, que eu comfigurei */
+.pagote5 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    margin-top: 50px;
+    padding-right: 230px;
+}
+
+/* esse e botão para entrar no pacote5, que eu configurei */
+.compra5 {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    
+    margin: auto;
+    margin-top: 20px;  
+    padding-right: 215px ;
+    color:  rgb(0, 255, 132);;
+    font-size: 23px;
+    text-decoration:none;
+}
+
+/* esse e o pacote6 que ta com imagem, e tanto de diamates que vem, que eu comfigurei */
+.pagote6 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    margin-top: -130px;
+    padding-left: 200px;
+}
+
+/* esse e botão para entrar no pacote6, que eu configurei */
+.compra6{
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: -26px; 
+    padding-left: 215px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 23px;
+    text-decoration:none;
+}
+
+
+/* TELA DE COMPRAR 1 */
+
+/* esse e a imagem do pacote1 que eu coloquei e configurei */
+.imgpacote1 {
+    width: 360px;
+    height: 180px;
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    margin: auto;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+/* esse e para centraliza o valor e o botão que não funciona e junto com a explicação do pacote abaixo */
+.center {
+    margin-right: 50px;
+}
+
+/* esse e o retangulo preto do fundo do botão que não funciona, que eu configurei */
+.retangulo {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 360px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+/* esse e o preço do pacote1 que eu configurei */
+.texto2 {
+    width: 211px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: -0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão que não funciona que e sor um retangulo verde que eu configurei */
+.retangulo2 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: -30PX;
+}
+
+/* esse e o texto, COMPRAR, que fica no meio do botão que não funciona, que eu configurei */
+.texto3 {
+    margin-top: 1px;
+    margin-left: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+}
+
+/* esse e o fundo preto atras do texto que explica o pacote1, que eu configurei */
+.retangulo3 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background: #000000;
+    width: 360px;
+    height: 190px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* esse e o texto que explica o pacote, que eu configurei */
+.texto4 {
+    width: 331px;
+    height: 95px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão para voltar para a tela de pocotes, que eu configurei */
+.voltar {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: 50px; 
+    padding-right: 20px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 40px;
+    text-decoration:none;
+}
+
+/* TELA DE COMPRAR 2 */
+
+/* esse e a imagem do pacote2 que eu coloquei e configurei */
+.imgpacote2 {
+    width: 360px;
+    height: 180px;
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    margin: auto;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+/* esse e o retangulo preto do fundo do botão que não funciona, que eu configurei */
+.retangulo4 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 360px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+/* esse e o preço do pacote1 que eu configurei */
+.texto5 {
+    width: 211px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: -0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão que não funciona que e sor um retangulo verde que eu configurei */
+.retangulo5 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: -30PX;
+}
+
+/* esse e o texto, COMPRAR, que fica no meio do botão que não funciona, que eu configurei */
+.texto6 {
+    width: 252px;
+    height: 32px;
+    margin-top: 1px;
+    margin-left: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+}
+
+/* esse e o fundo preto atras do texto que explica o pacote1, que eu configurei */
+.retangulo6 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background: #000000;
+    width: 360px;
+    height: 190px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* esse e o texto que explica o pacote, que eu configurei */
+.texto7 {
+    width: 331px;
+    height: 95px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão para voltar para a tela de pocotes, que eu configurei */
+.voltar {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: 50px; 
+    padding-right: 20px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 40px;
+    text-decoration:none;
+}
+
+/* TELA DE COMPRAR 3 */
+
+/* esse e a imagem do pacote3 que eu coloquei e configurei */
+.imgpacote3 {
+    width: 360px;
+    height: 180px;
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    margin: auto;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+/* esse e o retangulo preto do fundo do botão que não funciona, que eu configurei */
+.retangulo7 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 360px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+/* esse e o preço do pacote1 que eu configurei */
+.texto8 {
+    width: 211px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: -0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão que não funciona que e sor um retangulo verde que eu configurei */
+.retangulo8 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: -30PX;
+}
+
+/* esse e o texto, COMPRAR, que fica no meio do botão que não funciona, que eu configurei */
+.texto9{
+    width: 252px;
+    height: 32px;
+    margin-top: 1px;
+    margin-left: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+}
+
+/* esse e o fundo preto atras do texto que explica o pacote1, que eu configurei */
+.retangulo9 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background: #000000;
+    width: 360px;
+    height: 190px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* esse e o texto que explica o pacote, que eu configurei */
+.texto10 {
+    width: 331px;
+    height: 95px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão para voltar para a tela de pocotes, que eu configurei */
+.voltar {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: 50px; 
+    padding-right: 20px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 40px;
+    text-decoration:none;
+}
+
+/* TELA DE COMPRAR 4 */
+
+/* esse e a imagem do pacote4 que eu coloquei e configurei */
+.imgpacote4 {
+    width: 360px;
+    height: 180px;
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    margin: auto;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+/* esse e o retangulo preto do fundo do botão que não funciona, que eu configurei */
+.retangulo10 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 360px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+/* esse e o preço do pacote1 que eu configurei */
+.texto11 {
+    width: 211px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: -0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão que não funciona que e sor um retangulo verde que eu configurei */
+.retangulo11 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: -30PX;
+}
+
+/* esse e o texto, COMPRAR, que fica no meio do botão que não funciona, que eu configurei */
+.texto12 {
+    width: 252px;
+    height: 32px;
+    margin-top: 1px;
+    margin-left: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+}
+
+/* esse e o fundo preto atras do texto que explica o pacote1, que eu configurei */
+.retangulo12 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background: #000000;
+    width: 360px;
+    height: 190px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* esse e o texto que explica o pacote, que eu configurei */
+.texto13 {
+    width: 331px;
+    height: 95px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão para voltar para a tela de pocotes, que eu configurei */
+.voltar {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: 50px; 
+    padding-right: 20px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 40px;
+    text-decoration:none;
+}
+
+/* TELA DE COMPRAR 5 */
+
+/* esse e a imagem do pacote5 que eu coloquei e configurei */
+.imgpacote5 {
+    width: 360px;
+    height: 180px;
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    margin: auto;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+/* esse e o retangulo preto do fundo do botão que não funciona, que eu configurei */
+.retangulo13 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 360px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+/* esse e o preço do pacote1 que eu configurei */
+.texto14 {
+    width: 211px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: -0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão que não funciona que e sor um retangulo verde que eu configurei */
+.retangulo14 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: -30PX;
+}
+
+/* esse e o texto, COMPRAR, que fica no meio do botão que não funciona, que eu configurei */
+.texto15 {
+    width: 252px;
+    height: 32px;
+    margin-top: 1px;
+    margin-left: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+}
+
+/* esse e o fundo preto atras do texto que explica o pacote1, que eu configurei */
+.retangulo15 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background: #000000;
+    width: 360px;
+    height: 190px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* esse e o texto que explica o pacote, que eu configurei */
+.texto16 {
+    width: 331px;
+    height: 95px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão para voltar para a tela de pocotes, que eu configurei */
+.voltar {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: 50px; 
+    padding-right: 20px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 40px;
+    text-decoration:none;
+}
+
+/* TELA DE COMPRAR 6 */
+
+/* esse e a imagem do pacote6 que eu coloquei e configurei */
+.imgpacote6 {
+    width: 360px;
+    height: 180px;
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    margin: auto;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+/* esse e o retangulo preto do fundo do botão que não funciona, que eu configurei */
+.retangulo16 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    width: 360px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+/* esse e o preço do pacote1 que eu configurei */
+.texto17 {
+    width: 211px;
+    height: 22px;
+    margin-left: 120px;
+    margin-top: -0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão que não funciona que e sor um retangulo verde que eu configurei */
+.retangulo17 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: -30PX;
+}
+
+/* esse e o texto, COMPRAR, que fica no meio do botão que não funciona, que eu configurei */
+.texto18 {
+    width: 252px;
+    height: 32px;
+    margin-top: 1px;
+    margin-left: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+}
+
+/* esse e o fundo preto atras do texto que explica o pacote1, que eu configurei */
+.retangulo18 {
+    display: grid;
+    grid-auto-columns: auto auto;
+    column-gap: normal;
+    background: #000000;
+    width: 360px;
+    height: 190px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* esse e o texto que explica o pacote, que eu configurei */
+.texto19 {
+    width: 331px;
+    height: 95px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #00FF85;
+
+}
+
+/* esse e o botão para voltar para a tela de pocotes, que eu configurei */
+.voltar {
+    display: grid;
+    border-radius: 10px;
+    width: 130px;
+    margin: auto;
+    margin-top: 50px; 
+    padding-right: 20px; 
+    color:  rgb(0, 255, 132);;
+    font-size: 40px;
+    text-decoration:none;
+}

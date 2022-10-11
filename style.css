@@ -1,0 +1,60 @@
+/* tela inicial */
+
+/* esse e o fundo do site, eu coloquei essa imagem por que quando a pessoa entra no site e saber que e recarga de diamante do free fire */
+body {
+    background: #FFFFFF url(img/freefire12.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* esse e para centraliza a imagem do fundo em todas as telas */
+html {
+    height: 100vh; 
+}
+
+/* esse e o fundo do titulo */
+.retangulo {
+    background-color: rgba(0, 255, 133, 0.8);
+    border-radius: 10px;
+    width: 280px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+/* esse e para ajeitar o titulo */
+.texto {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+
+/* esse e um botão para entrar no site */
+.botao {
+    display: grid;
+    grid-auto-columns: auto auto;
+    gap: 10px;
+    column-gap: normal;
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 250px;
+    padding: 10px; 
+    border: none;
+    display: block;
+}
+
+/* esse e para aumentar a fonte que ta o nome PROSSERQUIR do botão */
+.fonte {
+    font-size: 18px;
+    
+}
